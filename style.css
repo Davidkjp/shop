@@ -1,0 +1,127 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;    
+    justify-content: center;
+    gap: 40px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+
+  nav a:hover {
+    color: #f0aaff;
+  }
+
+  .logo{
+    display: flex;
+    width: 200px;
+  }
+
+  .bouton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 8px 16px;
+    width: fit-content;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+ }
+
+  .boutons-container{
+    display: flex;
+    gap: 16px;
+ }
+
+ .bouton.primaire{
+    background: #8005F2;
+    color: white;
+ }
+
+ .bouton.primaire:hover{
+    background: #c38ff5;
+ }
+
+  h1{
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  footer{
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  nav img.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 2px solid black;
+    object-fit: cover;
+  }
+
+  #articles{
+    display: flex;
+    gap: 5px;
+  }
+
+
+  .article{
+   display: flex;
+   background: #fdfdfd;
+   color: rgb(0, 0, 0);
+   flex-direction: column;
+   align-items: center;
+   font-family: sans-serif;
+   text-transform: uppercase;
+   gap: 5px;
+   border-radius: 16px;
+   overflow: hidden;
+   -webkit-box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24); 
+   box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24);
+   padding: 16px;
+   width: 250px;
+   height: 400px;
+   transition: all 1s ease-in-out;
+    }
+
+    .article img{
+        width: 200px;
+        height: 200px;
+        
+    }
+
+
+    .bouton.secondaire{
+        background: #8005F2;
+        color: #fefbfb;
+        border: 2px solid #8005F2;
+        align-content: center;
+        justify-content: center;
+} 
+
+.bouton.secondaire:hover{
+    border: 2px solid #c38ff5;
+    color: #c38ff5;
+ }
+
+ 
+
