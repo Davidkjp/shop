@@ -44,6 +44,7 @@ nav ul {
     width: fit-content;
     font-weight: 500;
     transition: all .3s ease-in-out;
+    
  }
 
   .boutons-container{
@@ -63,6 +64,12 @@ nav ul {
   h1{
     text-transform: uppercase;
     text-align: center;
+  }
+
+  #articles h3 {
+    color: violet ;
+    
+
   }
 
   footer{
@@ -103,24 +110,25 @@ nav ul {
    transition: all 1s ease-in-out;
     }
 
-    .article img{
-        width: 200px;
-        height: 200px;
+  .article img{
+    width: 200px;
+    height: 200px;
         
     }
 
 
-    .bouton.secondaire{
-        background: #8005F2;
-        color: #fefbfb;
-        border: 2px solid #8005F2;
-        align-content: center;
-        justify-content: center;
-} 
+  .bouton.secondaire{
+    background: #8005F2;
+    color: #fefbfb;
+    border: 2px solid #8005F2;
+    align-content: center;
+    justify-content: center;
+    } 
 
-.bouton.secondaire:hover{
+  .bouton.secondaire:hover{
     border: 2px solid #c38ff5;
     color: #c38ff5;
+    
  }
 
  
